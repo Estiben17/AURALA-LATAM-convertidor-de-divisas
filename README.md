@@ -1,6 +1,6 @@
 # AURALA-LATAM-convertidor-de-divisas
 
-# Auralatam Currency Converter
+# Auralatam convertidor de divisas
 
 Este es un proyecto de JavaFX para una aplicación de conversión de divisas. La aplicación carga una interfaz gráfica desde un archivo FXML y proporciona funcionalidades para convertir diferentes monedas utilizando datos de la API de ExchangeRate-API.
 
