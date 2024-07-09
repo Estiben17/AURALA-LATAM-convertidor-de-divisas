@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="351.0" prefWidth="654.0" style="-fx-background-color: #e2d1f0;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.auralatam.Controller">
+    <AnchorPane prefHeight="55.0" prefWidth="600.0" style="-fx-background-color: #ada5a5;" AnchorPane.bottomAnchor="285.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+        <HBox prefHeight="47.0" prefWidth="549.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+            <ImageView pickOnBounds="true" preserveRatio="true">
+                <HBox.margin>
+                    <Insets bottom="5.0" left="530.0" right="5.0" top="5.0" />
+                </HBox.margin>
+                <Image url="@../../../images/planeta.png" />
+            </ImageView>
+        </HBox>
+        <Label fx:id="welcomeText" text="CONVERTIDOR DE DINERO" textAlignment="CENTER" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="5.0">
+            <font>
+                <Font name="Comic Sans MS Bold" size="36.0" />
+            </font>
+        </Label>
+    </AnchorPane>
+    <AnchorPane layoutX="7.0" layoutY="76.0" prefHeight="275.0" prefWidth="648.0" style="-fx-background-color: #ada5a5;" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0">
+        <Label layoutX="14.0" layoutY="80.0" text="CANTIDAD A CONVERTIR:">
+            <font>
+                <Font name="System Bold Italic" size="15.0" />
+            </font>
+        </Label>
+        <TextField fx:id="amountTextField" layoutX="215.0" layoutY="78.0" prefHeight="26.0" prefWidth="238.0" promptText="Digite la cantidad que desea convertir" />
+        <Label layoutX="14.0" layoutY="25.0" text="CONVERTIR DE COP">
+            <font>
+                <Font name="System Bold Italic" size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="182.0" layoutY="25.0" text="A ">
+            <font>
+                <Font name="System Bold Italic" size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="45.0" layoutY="127.0" text="CANTIDAD CONVERTIDA:">
+            <font>
+                <Font name="System Bold Italic" size="15.0" />
+            </font>
+        </Label>
+        <TextField fx:id="convertedAmountTextField" layoutX="288.0" layoutY="125.0" promptText="Cantidad convertida" />
+        <ImageView fitHeight="68.0" fitWidth="50.0" layoutX="532.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@../../../images/traducir.png" />
+        </ImageView>
+        <ComboBox fx:id="toComboBox" layoutX="246.0" layoutY="26.0" prefHeight="27.0" prefWidth="176.0" promptText="Seleccionar conversión" style="-fx-background-color: #1fbfaf;" />
+        <Button fx:id="convertButton" layoutX="256.0" layoutY="167.0" mnemonicParsing="false" style="-fx-background-color: #1fbfaf;" text="CONVERTIR">
+            <font>
+                <Font name="Comic Sans MS Bold Italic" size="12.0" />
+            </font>
+        </Button>
+        <Label layoutX="448.0" layoutY="29.0" text="VALOR">
+            <font>
+                <Font name="System Bold Italic" size="15.0" />
+            </font>
+        </Label>
+        <ComboBox fx:id="toComboBox1" layoutX="511.0" layoutY="29.0" prefHeight="27.0" prefWidth="112.0" promptText="Valor divisa" style="-fx-background-color: #1fbfaf;" />
+    </AnchorPane>
+</AnchorPane>
