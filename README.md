@@ -5,7 +5,6 @@
 Este es un proyecto de JavaFX para una aplicación de conversión de divisas. La aplicación carga una interfaz gráfica desde un archivo FXML y proporciona funcionalidades para convertir diferentes monedas utilizando datos de la API de ExchangeRate-API.
 
 ## Estructura del Proyecto
-Claro, aquí tienes un ejemplo de un archivo `README.md` que explica tu código y los pasos realizados:
 
 ```markdown
 # Auralatam Currency Converter
